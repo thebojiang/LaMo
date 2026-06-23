@@ -1,0 +1,1566 @@
+[
+    {
+        "prompt_en": "In a still frame, a stop sign",
+        "dimension": [
+            "temporal_flickering"
+        ]
+    },
+    {
+        "prompt_en": "A tranquil tableau of bathroom",
+        "dimension": [
+            "temporal_flickering"
+        ]
+    },
+    {
+        "prompt_en": "indoor gymnasium, frozen in time",
+        "dimension": [
+            "temporal_flickering"
+        ]
+    },
+    {
+        "prompt_en": "A tranquil tableau of restaurant",
+        "dimension": [
+            "temporal_flickering"
+        ]
+    },
+    {
+        "prompt_en": "A tranquil tableau of a cup",
+        "dimension": [
+            "temporal_flickering"
+        ]
+    },
+    {
+        "prompt_en": "A tranquil tableau of an antique bowl",
+        "dimension": [
+            "temporal_flickering"
+        ]
+    },
+    {
+        "prompt_en": "A tranquil tableau of the jail cell was small and dimly lit, with cold, steel bars",
+        "dimension": [
+            "temporal_flickering"
+        ]
+    },
+    {
+        "prompt_en": "In a still frame, the Parthenon's majestic Doric columns stand in serene solitude atop the Acropolis, framed by the tranquil Athenian landscape",
+        "dimension": [
+            "temporal_flickering"
+        ]
+    },
+    {
+        "prompt_en": "A tranquil tableau of an ornate Victorian streetlamp standing on a cobblestone street corner, illuminating the empty night",
+        "dimension": [
+            "temporal_flickering"
+        ]
+    },
+    {
+        "prompt_en": "A tranquil tableau of at the edge of the Arabian Desert, the ancient city of Petra beckoned with its enigmatic rock-carved façades",
+        "dimension": [
+            "temporal_flickering"
+        ]
+    },
+    {
+        "prompt_en": "A tranquil tableau of in the heart of the Utah desert, a massive sandstone arch spanned the horizon",
+        "dimension": [
+            "temporal_flickering"
+        ]
+    },
+    {
+        "prompt_en": "A tranquil tableau of beneath the shade of a solitary oak tree, an old wooden park bench sat patiently",
+        "dimension": [
+            "temporal_flickering"
+        ]
+    },
+    {
+        "prompt_en": "A tranquil tableau of in the serene courtyard, a centuries-old stone well stood as a symbol of a bygone era, its mossy stones bearing witness to the passage of time",
+        "dimension": [
+            "temporal_flickering"
+        ]
+    },
+    {
+        "prompt_en": "a bird and a cat",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "bird and cat"
+            }
+        }
+    },
+    {
+        "prompt_en": "an elephant and a bear",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "elephant and bear"
+            }
+        }
+    },
+    {
+        "prompt_en": "a potted plant and a tv",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "potted plant and tv"
+            }
+        }
+    },
+    {
+        "prompt_en": "a clock and a backpack",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "clock and backpack"
+            }
+        }
+    },
+    {
+        "prompt_en": "a vase and scissors",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "vase and scissors"
+            }
+        }
+    },
+    {
+        "prompt_en": "a sports ball and a kite",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "sports ball and kite"
+            }
+        }
+    },
+    {
+        "prompt_en": "a tennis racket and a bottle",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "tennis racket and bottle"
+            }
+        }
+    },
+    {
+        "prompt_en": "a motorcycle and a bus",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "motorcycle and bus"
+            }
+        }
+    },
+    {
+        "prompt_en": "a truck and a bicycle",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "truck and bicycle"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cup and a couch",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "cup and couch"
+            }
+        }
+    },
+    {
+        "prompt_en": "an apple and a cell phone",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "apple and cell phone"
+            }
+        }
+    },
+    {
+        "prompt_en": "a donut and a suitcase",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "donut and suitcase"
+            }
+        }
+    },
+    {
+        "prompt_en": "a bicycle and an airplane",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "bicycle and airplane"
+            }
+        }
+    },
+    {
+        "prompt_en": "a person and a sink",
+        "dimension": [
+            "multiple_objects"
+        ],
+        "auxiliary_info": {
+            "multiple_objects": {
+                "object": "person and sink"
+            }
+        }
+    },
+    {
+        "prompt_en": "A person is riding a bike",
+        "dimension": [
+            "human_action"
+        ]
+    },
+    {
+        "prompt_en": "A person is petting animal (not cat)",
+        "dimension": [
+            "human_action"
+        ]
+    },
+    {
+        "prompt_en": "A person is skateboarding",
+        "dimension": [
+            "human_action"
+        ]
+    },
+    {
+        "prompt_en": "A person is playing piano",
+        "dimension": [
+            "human_action"
+        ]
+    },
+    {
+        "prompt_en": "A person is shooting basketball",
+        "dimension": [
+            "human_action"
+        ]
+    },
+    {
+        "prompt_en": "A person is playing trumpet",
+        "dimension": [
+            "human_action"
+        ]
+    },
+    {
+        "prompt_en": "A person is tai chi",
+        "dimension": [
+            "human_action"
+        ]
+    },
+    {
+        "prompt_en": "A person is taking a shower",
+        "dimension": [
+            "human_action"
+        ]
+    },
+    {
+        "prompt_en": "A person is bungee jumping",
+        "dimension": [
+            "human_action"
+        ]
+    },
+    {
+        "prompt_en": "A person is ironing",
+        "dimension": [
+            "human_action"
+        ]
+    },
+    {
+        "prompt_en": "A person is washing dishes",
+        "dimension": [
+            "human_action"
+        ]
+    },
+    {
+        "prompt_en": "A person is massaging legs",
+        "dimension": [
+            "human_action"
+        ]
+    },
+    {
+        "prompt_en": "A person is shaking head",
+        "dimension": [
+            "human_action"
+        ]
+    },
+    {
+        "prompt_en": "A person is catching or throwing baseball",
+        "dimension": [
+            "human_action"
+        ]
+    },
+    {
+        "prompt_en": "A person is climbing a rope",
+        "dimension": [
+            "human_action"
+        ]
+    },
+    {
+        "prompt_en": "A person is counting money",
+        "dimension": [
+            "human_action"
+        ]
+    },
+    {
+        "prompt_en": "A person is sailing",
+        "dimension": [
+            "human_action"
+        ]
+    },
+    {
+        "prompt_en": "a person swimming in ocean",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree",
+            "motion_smoothness"
+        ]
+    },
+    {
+        "prompt_en": "a person playing guitar",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree",
+            "motion_smoothness"
+        ]
+    },
+    {
+        "prompt_en": "a car slowing down to stop",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree",
+            "motion_smoothness"
+        ]
+    },
+    {
+        "prompt_en": "a motorcycle accelerating to gain speed",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree",
+            "motion_smoothness"
+        ]
+    },
+    {
+        "prompt_en": "a bus accelerating to gain speed",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree",
+            "motion_smoothness"
+        ]
+    },
+    {
+        "prompt_en": "a truck stuck in traffic during rush hour",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree",
+            "motion_smoothness"
+        ]
+    },
+    {
+        "prompt_en": "a bird building a nest from twigs and leaves",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree",
+            "motion_smoothness"
+        ]
+    },
+    {
+        "prompt_en": "a dog enjoying a peaceful walk",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree",
+            "motion_smoothness"
+        ]
+    },
+    {
+        "prompt_en": "a horse running to join a herd of its kind",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree",
+            "motion_smoothness"
+        ]
+    },
+    {
+        "prompt_en": "a cow running to join a herd of its kind",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree",
+            "motion_smoothness"
+        ]
+    },
+    {
+        "prompt_en": "a bear hunting for prey",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree",
+            "motion_smoothness"
+        ]
+    },
+    {
+        "prompt_en": "a giraffe running to join a herd of its kind",
+        "dimension": [
+            "subject_consistency",
+            "dynamic_degree",
+            "motion_smoothness"
+        ]
+    },
+    {
+        "prompt_en": "a person",
+        "dimension": [
+            "object_class"
+        ],
+        "auxiliary_info": {
+            "object_class": {
+                "object": "person"
+            }
+        }
+    },
+    {
+        "prompt_en": "a train",
+        "dimension": [
+            "object_class"
+        ],
+        "auxiliary_info": {
+            "object_class": {
+                "object": "train"
+            }
+        }
+    },
+    {
+        "prompt_en": "a parking meter",
+        "dimension": [
+            "object_class"
+        ],
+        "auxiliary_info": {
+            "object_class": {
+                "object": "parking meter"
+            }
+        }
+    },
+    {
+        "prompt_en": "a sheep",
+        "dimension": [
+            "object_class"
+        ],
+        "auxiliary_info": {
+            "object_class": {
+                "object": "sheep"
+            }
+        }
+    },
+    {
+        "prompt_en": "a backpack",
+        "dimension": [
+            "object_class"
+        ],
+        "auxiliary_info": {
+            "object_class": {
+                "object": "backpack"
+            }
+        }
+    },
+    {
+        "prompt_en": "skis",
+        "dimension": [
+            "object_class"
+        ],
+        "auxiliary_info": {
+            "object_class": {
+                "object": "skis"
+            }
+        }
+    },
+    {
+        "prompt_en": "a skateboard",
+        "dimension": [
+            "object_class"
+        ],
+        "auxiliary_info": {
+            "object_class": {
+                "object": "skateboard"
+            }
+        }
+    },
+    {
+        "prompt_en": "a fork",
+        "dimension": [
+            "object_class"
+        ],
+        "auxiliary_info": {
+            "object_class": {
+                "object": "fork"
+            }
+        }
+    },
+    {
+        "prompt_en": "a sandwich",
+        "dimension": [
+            "object_class"
+        ],
+        "auxiliary_info": {
+            "object_class": {
+                "object": "sandwich"
+            }
+        }
+    },
+    {
+        "prompt_en": "a donut",
+        "dimension": [
+            "object_class"
+        ],
+        "auxiliary_info": {
+            "object_class": {
+                "object": "donut"
+            }
+        }
+    },
+    {
+        "prompt_en": "a dining table",
+        "dimension": [
+            "object_class"
+        ],
+        "auxiliary_info": {
+            "object_class": {
+                "object": "dining table"
+            }
+        }
+    },
+    {
+        "prompt_en": "a cell phone",
+        "dimension": [
+            "object_class"
+        ],
+        "auxiliary_info": {
+            "object_class": {
+                "object": "cell phone"
+            }
+        }
+    },
+    {
+        "prompt_en": "a book",
+        "dimension": [
+            "object_class"
+        ],
+        "auxiliary_info": {
+            "object_class": {
+                "object": "book"
+            }
+        }
+    },
+    {
+        "prompt_en": "a toothbrush",
+        "dimension": [
+            "object_class"
+        ],
+        "auxiliary_info": {
+            "object_class": {
+                "object": "toothbrush"
+            }
+        }
+    },
+    {
+        "prompt_en": "a red bicycle",
+        "dimension": [
+            "color"
+        ],
+        "auxiliary_info": {
+            "color": {
+                "color": "red"
+            }
+        }
+    },
+    {
+        "prompt_en": "a pink bicycle",
+        "dimension": [
+            "color"
+        ],
+        "auxiliary_info": {
+            "color": {
+                "color": "pink"
+            }
+        }
+    },
+    {
+        "prompt_en": "a yellow car",
+        "dimension": [
+            "color"
+        ],
+        "auxiliary_info": {
+            "color": {
+                "color": "yellow"
+            }
+        }
+    },
+    {
+        "prompt_en": "a red bird",
+        "dimension": [
+            "color"
+        ],
+        "auxiliary_info": {
+            "color": {
+                "color": "red"
+            }
+        }
+    },
+    {
+        "prompt_en": "a pink bird",
+        "dimension": [
+            "color"
+        ],
+        "auxiliary_info": {
+            "color": {
+                "color": "pink"
+            }
+        }
+    },
+    {
+        "prompt_en": "a yellow cat",
+        "dimension": [
+            "color"
+        ],
+        "auxiliary_info": {
+            "color": {
+                "color": "yellow"
+            }
+        }
+    },
+    {
+        "prompt_en": "a purple umbrella",
+        "dimension": [
+            "color"
+        ],
+        "auxiliary_info": {
+            "color": {
+                "color": "purple"
+            }
+        }
+    },
+    {
+        "prompt_en": "a blue suitcase",
+        "dimension": [
+            "color"
+        ],
+        "auxiliary_info": {
+            "color": {
+                "color": "blue"
+            }
+        }
+    },
+    {
+        "prompt_en": "a white suitcase",
+        "dimension": [
+            "color"
+        ],
+        "auxiliary_info": {
+            "color": {
+                "color": "white"
+            }
+        }
+    },
+    {
+        "prompt_en": "a purple bowl",
+        "dimension": [
+            "color"
+        ],
+        "auxiliary_info": {
+            "color": {
+                "color": "purple"
+            }
+        }
+    },
+    {
+        "prompt_en": "a blue chair",
+        "dimension": [
+            "color"
+        ],
+        "auxiliary_info": {
+            "color": {
+                "color": "blue"
+            }
+        }
+    },
+    {
+        "prompt_en": "a white chair",
+        "dimension": [
+            "color"
+        ],
+        "auxiliary_info": {
+            "color": {
+                "color": "white"
+            }
+        }
+    },
+    {
+        "prompt_en": "a purple clock",
+        "dimension": [
+            "color"
+        ],
+        "auxiliary_info": {
+            "color": {
+                "color": "purple"
+            }
+        }
+    },
+    {
+        "prompt_en": "a blue vase",
+        "dimension": [
+            "color"
+        ],
+        "auxiliary_info": {
+            "color": {
+                "color": "blue"
+            }
+        }
+    },
+    {
+        "prompt_en": "a white vase",
+        "dimension": [
+            "color"
+        ],
+        "auxiliary_info": {
+            "color": {
+                "color": "white"
+            }
+        }
+    },
+    {
+        "prompt_en": "A beautiful coastal beach in spring, waves lapping on sand, Van Gogh style",
+        "dimension": [
+            "appearance_style"
+        ],
+        "auxiliary_info": {
+            "appearance_style": {
+                "appearance_style": "Van Gogh style"
+            }
+        }
+    },
+    {
+        "prompt_en": "A beautiful coastal beach in spring, waves lapping on sand, animated style",
+        "dimension": [
+            "appearance_style"
+        ],
+        "auxiliary_info": {
+            "appearance_style": {
+                "appearance_style": "animated style"
+            }
+        }
+    },
+    {
+        "prompt_en": "The bund Shanghai, pixel art",
+        "dimension": [
+            "appearance_style"
+        ],
+        "auxiliary_info": {
+            "appearance_style": {
+                "appearance_style": "pixel art"
+            }
+        }
+    },
+    {
+        "prompt_en": "a shark is swimming in the ocean, oil painting",
+        "dimension": [
+            "appearance_style"
+        ],
+        "auxiliary_info": {
+            "appearance_style": {
+                "appearance_style": "oil painting"
+            }
+        }
+    },
+    {
+        "prompt_en": "a shark is swimming in the ocean, watercolor painting",
+        "dimension": [
+            "appearance_style"
+        ],
+        "auxiliary_info": {
+            "appearance_style": {
+                "appearance_style": "watercolor painting"
+            }
+        }
+    },
+    {
+        "prompt_en": "A panda drinking coffee in a cafe in Paris, in cyberpunk style",
+        "dimension": [
+            "appearance_style"
+        ],
+        "auxiliary_info": {
+            "appearance_style": {
+                "appearance_style": "in cyberpunk style"
+            }
+        }
+    },
+    {
+        "prompt_en": "A cute happy Corgi playing in park, sunset by Hokusai, in the style of Ukiyo",
+        "dimension": [
+            "appearance_style"
+        ],
+        "auxiliary_info": {
+            "appearance_style": {
+                "appearance_style": "by Hokusai, in the style of Ukiyo"
+            }
+        }
+    },
+    {
+        "prompt_en": "A cute happy Corgi playing in park, sunset, surrealism style",
+        "dimension": [
+            "appearance_style"
+        ],
+        "auxiliary_info": {
+            "appearance_style": {
+                "appearance_style": "surrealism style"
+            }
+        }
+    },
+    {
+        "prompt_en": "Gwen Stacy reading a book, animated style",
+        "dimension": [
+            "appearance_style"
+        ],
+        "auxiliary_info": {
+            "appearance_style": {
+                "appearance_style": "animated style"
+            }
+        }
+    },
+    {
+        "prompt_en": "A boat sailing leisurely along the Seine River with the Eiffel Tower in background, black and white",
+        "dimension": [
+            "appearance_style"
+        ],
+        "auxiliary_info": {
+            "appearance_style": {
+                "appearance_style": "black and white"
+            }
+        }
+    },
+    {
+        "prompt_en": "A couple in formal evening wear going home get caught in a heavy downpour with umbrellas, oil painting",
+        "dimension": [
+            "appearance_style"
+        ],
+        "auxiliary_info": {
+            "appearance_style": {
+                "appearance_style": "oil painting"
+            }
+        }
+    },
+    {
+        "prompt_en": "A couple in formal evening wear going home get caught in a heavy downpour with umbrellas, watercolor painting",
+        "dimension": [
+            "appearance_style"
+        ],
+        "auxiliary_info": {
+            "appearance_style": {
+                "appearance_style": "watercolor painting"
+            }
+        }
+    },
+    {
+        "prompt_en": "An astronaut flying in space, pixel art",
+        "dimension": [
+            "appearance_style"
+        ],
+        "auxiliary_info": {
+            "appearance_style": {
+                "appearance_style": "pixel art"
+            }
+        }
+    },
+    {
+        "prompt_en": "Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks by Hokusai, in the style of Ukiyo",
+        "dimension": [
+            "appearance_style"
+        ],
+        "auxiliary_info": {
+            "appearance_style": {
+                "appearance_style": "by Hokusai, in the style of Ukiyo"
+            }
+        }
+    },
+    {
+        "prompt_en": "Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks, surrealism style",
+        "dimension": [
+            "appearance_style"
+        ],
+        "auxiliary_info": {
+            "appearance_style": {
+                "appearance_style": "surrealism style"
+            }
+        }
+    },
+    {
+        "prompt_en": "A beautiful coastal beach in spring, waves lapping on sand, in super slow motion",
+        "dimension": [
+            "temporal_style"
+        ]
+    },
+    {
+        "prompt_en": "A beautiful coastal beach in spring, waves lapping on sand, tilt down",
+        "dimension": [
+            "temporal_style"
+        ]
+    },
+    {
+        "prompt_en": "The bund Shanghai, zoom out",
+        "dimension": [
+            "temporal_style"
+        ]
+    },
+    {
+        "prompt_en": "The bund Shanghai, racking focus",
+        "dimension": [
+            "temporal_style"
+        ]
+    },
+    {
+        "prompt_en": "a shark is swimming in the ocean, tilt up",
+        "dimension": [
+            "temporal_style"
+        ]
+    },
+    {
+        "prompt_en": "A panda drinking coffee in a cafe in Paris, zoom in",
+        "dimension": [
+            "temporal_style"
+        ]
+    },
+    {
+        "prompt_en": "A panda drinking coffee in a cafe in Paris, with an intense shaking effect",
+        "dimension": [
+            "temporal_style"
+        ]
+    },
+    {
+        "prompt_en": "A cute happy Corgi playing in park, sunset, pan left",
+        "dimension": [
+            "temporal_style"
+        ]
+    },
+    {
+        "prompt_en": "Gwen Stacy reading a book, in super slow motion",
+        "dimension": [
+            "temporal_style"
+        ]
+    },
+    {
+        "prompt_en": "Gwen Stacy reading a book, tilt down",
+        "dimension": [
+            "temporal_style"
+        ]
+    },
+    {
+        "prompt_en": "A boat sailing leisurely along the Seine River with the Eiffel Tower in background, zoom out",
+        "dimension": [
+            "temporal_style"
+        ]
+    },
+    {
+        "prompt_en": "A boat sailing leisurely along the Seine River with the Eiffel Tower in background, featuring a steady and smooth perspective",
+        "dimension": [
+            "temporal_style"
+        ]
+    },
+    {
+        "prompt_en": "A couple in formal evening wear going home get caught in a heavy downpour with umbrellas, pan right",
+        "dimension": [
+            "temporal_style"
+        ]
+    },
+    {
+        "prompt_en": "An astronaut flying in space, in super slow motion",
+        "dimension": [
+            "temporal_style"
+        ]
+    },
+    {
+        "prompt_en": "An astronaut flying in space, with an intense shaking effect",
+        "dimension": [
+            "temporal_style"
+        ]
+    },
+    {
+        "prompt_en": "Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks, pan left",
+        "dimension": [
+            "temporal_style"
+        ]
+    },
+    {
+        "prompt_en": "Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks, racking focus",
+        "dimension": [
+            "temporal_style"
+        ]
+    },
+    {
+        "prompt_en": "Close up of grapes on a rotating table.",
+        "dimension": [
+            "overall_consistency",
+            "aesthetic_quality",
+            "imaging_quality"
+        ]
+    },
+    {
+        "prompt_en": "Sunset time lapse at the beach with moving clouds and colors in the sky.",
+        "dimension": [
+            "overall_consistency",
+            "aesthetic_quality",
+            "imaging_quality"
+        ]
+    },
+    {
+        "prompt_en": "Flying through fantasy landscapes.",
+        "dimension": [
+            "overall_consistency",
+            "aesthetic_quality",
+            "imaging_quality"
+        ]
+    },
+    {
+        "prompt_en": "an ice cream is melting on the table.",
+        "dimension": [
+            "overall_consistency",
+            "aesthetic_quality",
+            "imaging_quality"
+        ]
+    },
+    {
+        "prompt_en": "An artist brush painting on a canvas close up.",
+        "dimension": [
+            "overall_consistency",
+            "aesthetic_quality",
+            "imaging_quality"
+        ]
+    },
+    {
+        "prompt_en": "A 3D model of a 1800s victorian house.",
+        "dimension": [
+            "overall_consistency",
+            "aesthetic_quality",
+            "imaging_quality"
+        ]
+    },
+    {
+        "prompt_en": "An astronaut is riding a horse in the space in a photorealistic style.",
+        "dimension": [
+            "overall_consistency",
+            "aesthetic_quality",
+            "imaging_quality"
+        ]
+    },
+    {
+        "prompt_en": "Ashtray full of butts on table, smoke flowing on black background, close-up",
+        "dimension": [
+            "overall_consistency",
+            "aesthetic_quality",
+            "imaging_quality"
+        ]
+    },
+    {
+        "prompt_en": "A boat sailing leisurely along the Seine River with the Eiffel Tower in background by Vincent van Gogh",
+        "dimension": [
+            "overall_consistency",
+            "aesthetic_quality",
+            "imaging_quality"
+        ]
+    },
+    {
+        "prompt_en": "A panda drinking coffee in a cafe in Paris",
+        "dimension": [
+            "overall_consistency",
+            "aesthetic_quality",
+            "imaging_quality"
+        ]
+    },
+    {
+        "prompt_en": "Gwen Stacy reading a book",
+        "dimension": [
+            "overall_consistency",
+            "aesthetic_quality",
+            "imaging_quality"
+        ]
+    },
+    {
+        "prompt_en": "A boat sailing leisurely along the Seine River with the Eiffel Tower in background",
+        "dimension": [
+            "overall_consistency",
+            "aesthetic_quality",
+            "imaging_quality"
+        ]
+    },
+    {
+        "prompt_en": "A cute raccoon playing guitar in a boat on the ocean",
+        "dimension": [
+            "overall_consistency",
+            "aesthetic_quality",
+            "imaging_quality"
+        ]
+    },
+    {
+        "prompt_en": "A polar bear is playing guitar",
+        "dimension": [
+            "overall_consistency",
+            "aesthetic_quality",
+            "imaging_quality"
+        ]
+    },
+    {
+        "prompt_en": "An epic tornado attacking above a glowing city at night, the tornado is made of smoke",
+        "dimension": [
+            "overall_consistency",
+            "aesthetic_quality",
+            "imaging_quality"
+        ]
+    },
+    {
+        "prompt_en": "Yellow flowers swing in the wind",
+        "dimension": [
+            "overall_consistency",
+            "aesthetic_quality",
+            "imaging_quality"
+        ]
+    },
+    {
+        "prompt_en": "alley",
+        "dimension": [
+            "scene",
+            "background_consistency"
+        ],
+        "auxiliary_info": {
+            "scene": {
+                "scene": {
+                    "scene": "alley"
+                }
+            }
+        }
+    },
+    {
+        "prompt_en": "bakery shop",
+        "dimension": [
+            "scene",
+            "background_consistency"
+        ],
+        "auxiliary_info": {
+            "scene": {
+                "scene": {
+                    "scene": "bakery shop"
+                }
+            }
+        }
+    },
+    {
+        "prompt_en": "bedroom",
+        "dimension": [
+            "scene",
+            "background_consistency"
+        ],
+        "auxiliary_info": {
+            "scene": {
+                "scene": {
+                    "scene": "bedroom"
+                }
+            }
+        }
+    },
+    {
+        "prompt_en": "carrousel",
+        "dimension": [
+            "scene",
+            "background_consistency"
+        ],
+        "auxiliary_info": {
+            "scene": {
+                "scene": {
+                    "scene": "carrousel"
+                }
+            }
+        }
+    },
+    {
+        "prompt_en": "construction site",
+        "dimension": [
+            "scene",
+            "background_consistency"
+        ],
+        "auxiliary_info": {
+            "scene": {
+                "scene": {
+                    "scene": "construction site"
+                }
+            }
+        }
+    },
+    {
+        "prompt_en": "farm",
+        "dimension": [
+            "scene",
+            "background_consistency"
+        ],
+        "auxiliary_info": {
+            "scene": {
+                "scene": {
+                    "scene": "farm"
+                }
+            }
+        }
+    },
+    {
+        "prompt_en": "glacier",
+        "dimension": [
+            "scene",
+            "background_consistency"
+        ],
+        "auxiliary_info": {
+            "scene": {
+                "scene": {
+                    "scene": "glacier"
+                }
+            }
+        }
+    },
+    {
+        "prompt_en": "house",
+        "dimension": [
+            "scene",
+            "background_consistency"
+        ],
+        "auxiliary_info": {
+            "scene": {
+                "scene": {
+                    "scene": "house"
+                }
+            }
+        }
+    },
+    {
+        "prompt_en": "lighthouse",
+        "dimension": [
+            "scene",
+            "background_consistency"
+        ],
+        "auxiliary_info": {
+            "scene": {
+                "scene": {
+                    "scene": "lighthouse"
+                }
+            }
+        }
+    },
+    {
+        "prompt_en": "indoor museum",
+        "dimension": [
+            "scene",
+            "background_consistency"
+        ],
+        "auxiliary_info": {
+            "scene": {
+                "scene": {
+                    "scene": "indoor museum"
+                }
+            }
+        }
+    },
+    {
+        "prompt_en": "parking lot",
+        "dimension": [
+            "scene",
+            "background_consistency"
+        ],
+        "auxiliary_info": {
+            "scene": {
+                "scene": {
+                    "scene": "parking lot"
+                }
+            }
+        }
+    },
+    {
+        "prompt_en": "science museum",
+        "dimension": [
+            "scene",
+            "background_consistency"
+        ],
+        "auxiliary_info": {
+            "scene": {
+                "scene": {
+                    "scene": "science museum"
+                }
+            }
+        }
+    },
+    {
+        "prompt_en": "staircase",
+        "dimension": [
+            "scene",
+            "background_consistency"
+        ],
+        "auxiliary_info": {
+            "scene": {
+                "scene": {
+                    "scene": "staircase"
+                }
+            }
+        }
+    },
+    {
+        "prompt_en": "train railway",
+        "dimension": [
+            "scene",
+            "background_consistency"
+        ],
+        "auxiliary_info": {
+            "scene": {
+                "scene": {
+                    "scene": "train railway"
+                }
+            }
+        }
+    },
+    {
+        "prompt_en": "windmill",
+        "dimension": [
+            "scene",
+            "background_consistency"
+        ],
+        "auxiliary_info": {
+            "scene": {
+                "scene": {
+                    "scene": "windmill"
+                }
+            }
+        }
+    },
+    {
+        "prompt_en": "a bicycle on the left of a car, front view",
+        "dimension": [
+            "spatial_relationship"
+        ],
+        "auxiliary_info": {
+            "spatial_relationship": {
+                "spatial_relationship": {
+                    "object_a": "bicycle",
+                    "object_b": "car",
+                    "relationship": "on the left of"
+                }
+            }
+        }
+    },
+    {
+        "prompt_en": "a stop sign on the left of a parking meter, front view",
+        "dimension": [
+            "spatial_relationship"
+        ],
+        "auxiliary_info": {
+            "spatial_relationship": {
+                "spatial_relationship": {
+                    "object_a": "stop sign",
+                    "object_b": "parking meter",
+                    "relationship": "on the left of"
+                }
+            }
+        }
+    },
+    {
+        "prompt_en": "a horse on the right of a sheep, front view",
+        "dimension": [
+            "spatial_relationship"
+        ],
+        "auxiliary_info": {
+            "spatial_relationship": {
+                "spatial_relationship": {
+                    "object_a": "horse",
+                    "object_b": "sheep",
+                    "relationship": "on the right of"
+                }
+            }
+        }
+    },
+    {
+        "prompt_en": "a giraffe on the right of a bird, front view",
+        "dimension": [
+            "spatial_relationship"
+        ],
+        "auxiliary_info": {
+            "spatial_relationship": {
+                "spatial_relationship": {
+                    "object_a": "giraffe",
+                    "object_b": "bird",
+                    "relationship": "on the right of"
+                }
+            }
+        }
+    },
+    {
+        "prompt_en": "a bowl on the left of a bottle, front view",
+        "dimension": [
+            "spatial_relationship"
+        ],
+        "auxiliary_info": {
+            "spatial_relationship": {
+                "spatial_relationship": {
+                    "object_a": "bowl",
+                    "object_b": "bottle",
+                    "relationship": "on the left of"
+                }
+            }
+        }
+    },
+    {
+        "prompt_en": "a teddy bear on the right of a potted plant, front view",
+        "dimension": [
+            "spatial_relationship"
+        ],
+        "auxiliary_info": {
+            "spatial_relationship": {
+                "spatial_relationship": {
+                    "object_a": "teddy bear",
+                    "object_b": "potted plant",
+                    "relationship": "on the right of"
+                }
+            }
+        }
+    },
+    {
+        "prompt_en": "a toilet on the left of a hair drier, front view",
+        "dimension": [
+            "spatial_relationship"
+        ],
+        "auxiliary_info": {
+            "spatial_relationship": {
+                "spatial_relationship": {
+                    "object_a": "toilet",
+                    "object_b": "hair drier",
+                    "relationship": "on the left of"
+                }
+            }
+        }
+    },
+    {
+        "prompt_en": "a tv on the right of a dining table, front view",
+        "dimension": [
+            "spatial_relationship"
+        ],
+        "auxiliary_info": {
+            "spatial_relationship": {
+                "spatial_relationship": {
+                    "object_a": "tv",
+                    "object_b": "dining table",
+                    "relationship": "on the right of"
+                }
+            }
+        }
+    },
+    {
+        "prompt_en": "an oven on the bottom of a toaster, front view",
+        "dimension": [
+            "spatial_relationship"
+        ],
+        "auxiliary_info": {
+            "spatial_relationship": {
+                "spatial_relationship": {
+                    "object_a": "oven",
+                    "object_b": "toaster",
+                    "relationship": "on the bottom of"
+                }
+            }
+        }
+    },
+    {
+        "prompt_en": "a banana on the bottom of an apple, front view",
+        "dimension": [
+            "spatial_relationship"
+        ],
+        "auxiliary_info": {
+            "spatial_relationship": {
+                "spatial_relationship": {
+                    "object_a": "banana",
+                    "object_b": "apple",
+                    "relationship": "on the bottom of"
+                }
+            }
+        }
+    },
+    {
+        "prompt_en": "a carrot on the top of a hot dog, front view",
+        "dimension": [
+            "spatial_relationship"
+        ],
+        "auxiliary_info": {
+            "spatial_relationship": {
+                "spatial_relationship": {
+                    "object_a": "carrot",
+                    "object_b": "hot dog",
+                    "relationship": "on the top of"
+                }
+            }
+        }
+    },
+    {
+        "prompt_en": "a donut on the top of broccoli, front view",
+        "dimension": [
+            "spatial_relationship"
+        ],
+        "auxiliary_info": {
+            "spatial_relationship": {
+                "spatial_relationship": {
+                    "object_a": "donut",
+                    "object_b": "broccoli",
+                    "relationship": "on the top of"
+                }
+            }
+        }
+    },
+    {
+        "prompt_en": "a snowboard on the bottom of a kite, front view",
+        "dimension": [
+            "spatial_relationship"
+        ],
+        "auxiliary_info": {
+            "spatial_relationship": {
+                "spatial_relationship": {
+                    "object_a": "snowboard",
+                    "object_b": "kite",
+                    "relationship": "on the bottom of"
+                }
+            }
+        }
+    },
+    {
+        "prompt_en": "a surfboard on the bottom of skis, front view",
+        "dimension": [
+            "spatial_relationship"
+        ],
+        "auxiliary_info": {
+            "spatial_relationship": {
+                "spatial_relationship": {
+                    "object_a": "surfboard",
+                    "object_b": "skis",
+                    "relationship": "on the bottom of"
+                }
+            }
+        }
+    }
+]

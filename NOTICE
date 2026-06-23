@@ -1,0 +1,44 @@
+LaMo
+Copyright (c) 2026 Applied Intuition, Inc.
+
+This product includes software developed at Applied Intuition, Inc.
+(https://www.appliedintuition.com/).
+
+Licensed under the Apache License, Version 2.0. See the LICENSE file for
+the full license text.
+
+--------------------------------------------------------------------------
+Third-party software
+--------------------------------------------------------------------------
+
+1. finetrainers
+   Directory: finetrainers/
+   A modified version of finetrainers
+   (https://github.com/huggingface/finetrainers), Copyright the
+   finetrainers contributors, licensed under the Apache License,
+   Version 2.0. Modifications by Applied Intuition, Inc.
+
+2. VBench
+   Directory: eval/vbench/
+   Vendored from https://github.com/Vchitect/VBench, licensed under the
+   Apache License, Version 2.0. Original copyright notices are retained.
+
+3. VideoPhy / VideoPhy-2
+   Directories: eval/videophy/, eval/videophy2/
+   Vendored and adapted from https://github.com/hritikbansal/videophy,
+   licensed under the MIT License. Original copyright notices are
+   retained.
+
+4. mPLUG-Owl
+   Directories: eval/videophy/videocon/training/pipeline_video/mplug_owl_video/,
+   eval/videophy2/mplug_owl_video/
+   Derived from https://github.com/X-PLUG/mPLUG-Owl (MIT License) and
+   associated HuggingFace Transformers code (Apache License, Version
+   2.0). Original copyright notices are retained.
+
+5. WISA, VideoREPA, Diffusers
+   Portions of the training code build upon
+   https://github.com/360CVGroup/WISA (Apache License, Version 2.0),
+   https://github.com/aHapBean/VideoREPA, and
+   https://github.com/huggingface/diffusers (Apache License, Version
+   2.0). See README acknowledgements.

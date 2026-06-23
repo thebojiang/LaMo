@@ -1,0 +1,27 @@
+# LaMo VideoPhy2 evaluation config.
+
+name: lamo-videophy2-eval
+
+model_type: lamo
+generate_type: lora
+pretrained_model_path: pretrain_models/CogVideoX-2b-Diffusers
+checkpoint_path: <PATH_TO_LORA_WEIGHT_DIR>
+result_path: outputs/eval/videophy2
+input_csv: eval/benchmark_data/videophy2/videophy2.csv
+videophy2_checkpoint: pretrain_models/videophy_2_auto
+num_gpus: 1
+eval_num_frames: 32
+num_frames: 49
+fps: 8
+lora_name: lora_adapter
+lora_rank: 128
+lora_alpha: 64
+guidance_lambda: 15.0
+guidance_step_ratio: 0.8
+predictor_hidden_channels: 256
+predictor_num_res_blocks: 8
+predictor_use_se: 1
+predictor_use_prev_delta: 0
+predictor_use_prompt_cond: 1
+prompt_text_dim: 4096
+prompt_cond_dim: 128

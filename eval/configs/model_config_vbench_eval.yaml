@@ -1,0 +1,31 @@
+# LaMo VBench evaluation config.
+
+name: lamo-vbench-eval
+
+model_type: lamo
+generate_type: baseline
+pretrained_model_path: pretrain_models/CogVideoX-2b-Diffusers
+checkpoint_path: pretrain_models/LaMo-CogVideoX-2b
+result_path: outputs/eval/vbench
+prompt_info_json: eval/benchmark_data/vbench/VBench_full_info.json
+vbench_root: eval/vbench
+vbench_pretrained_path: pretrain_models/vbench_pretrained
+num_gpus: 1
+workers_per_rank: 1
+vbench_eval_gpus: 1
+num_samples: 5
+num_frames: 49
+fps: 8
+guidance_lambda: 15.0
+guidance_step_ratio: 0.8
+predictor_hidden_channels: 256
+predictor_num_res_blocks: 8
+predictor_use_se: 1
+predictor_use_prev_delta: 0
+predictor_use_prompt_cond: 1
+prompt_text_dim: 4096
+prompt_cond_dim: 128
+generation_timeout_seconds: 72000
+generation_sync_timeout_seconds: 72000
+vbench_eval_timeout_seconds: 14400
+skip_existing: true

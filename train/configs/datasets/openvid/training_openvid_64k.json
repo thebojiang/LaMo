@@ -1,0 +1,13 @@
+{
+  "datasets": [
+    {
+      "dataset_type": "openvid",
+      "dataset_file": "<PATH_TO_OPENVID_64K_CSV>",
+      "data_root": "<PATH_TO_OPENVID_VIDEO_DIR>",
+      "video_resolution_buckets": [[49, 480, 720]],
+      "reshape_mode": "bicubic",
+      "short_video_handling": "skip",
+      "remove_common_llm_caption_prefixes": false
+    }
+  ]
+}

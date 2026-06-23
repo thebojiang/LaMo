@@ -1,0 +1,83 @@
+# LaMo local training/evaluation config.
+#
+# This file is intentionally platform-agnostic. It is consumed by
+# train.cluster_train_eval.main and can be launched locally with:
+#
+#   MODEL_CONFIG_YAML=train/configs/model_config_train_eval.yaml \
+#   bash train/scripts/run_cluster_train_local_lamo.sh
+#
+# Required before training:
+#   1. Set dataset_config to <PATH_TO_TRAINING_DATASET_CONFIG>.
+#   2. Set pretrained_model_name_or_path / pretrained_model_path to a local
+#      checkpoint directory or a public model id that your environment can
+#      download.
+#   3. For evaluation, set benchmark checkpoint paths to local paths.
+
+name: lamo-local
+
+mode: train_eval
+
+# Training resources. The local launcher maps this to torchrun
+# --nproc_per_node.
+num_gpus: 1
+eval_num_gpus: 1
+
+# Final model variant for the open-source release.
+variant: lamo
+model_type: lamo
+generate_type: lora
+
+# User-defined local/public paths.
+pretrained_model_name_or_path: <PATH_OR_MODEL_ID_TO_COGVIDEOX_2B>
+pretrained_model_path: <PATH_TO_LOCAL_COGVIDEOX_2B>
+dataset_config: <PATH_TO_TRAINING_DATASET_CONFIG>
+output_dir: <PATH_TO_OUTPUT_DIR>
+checkpoint_path: <PATH_TO_OUTPUT_DIR>
+eval_checkpoint_path: <PATH_TO_OUTPUT_DIR>/weight_2000
+result_path: <PATH_TO_EVAL_OUTPUT_DIR>
+
+# Core training hyperparameters.
+training_type: lora
+train_steps: 2000
+batch_size: 1
+lr: 5.0e-5
+lr_warmup_steps: 200
+checkpointing_steps: 2000
+checkpointing_limit: 1
+lora_rank: 128
+lora_alpha: 64
+
+# LaMo predictor.
+predictor_in_channels: 16
+predictor_num_res_blocks: 8
+predictor_hidden_channels: 256
+predictor_use_se: 1
+predictor_use_prev_delta: 0
+predictor_use_prompt_cond: 1
+prompt_text_dim: 4096
+prompt_cond_dim: 128
+prompt_dropout_prob: 0.1
+predictor_lr: 5.0e-4
+predictor_lr_scheduler: cosine
+predictor_noise_aug_prob: 0.5
+predictor_noise_aug_scale: 0.3
+predictor_cosine_weight: 0.3
+
+# Training-time motion drift loss.
+enable_denoiser_motion_loss: 1
+lambda_bmv_rel_l2: 0.4
+bmv_tau: 2
+
+# Inference-time motion prior guidance.
+guidance_lambda: 15.0
+guidance_step_ratio: 0.8
+
+# Evaluation benchmark: videophy, videophy2, or vbench.
+eval_benchmark: videophy
+input_csv: eval/benchmark_data/videophy/videophy_expanded_updated.csv
+videocon_checkpoint: pretrain_models/videocon_physics
+videophy_repo_path: eval/videophy
+videophy2_checkpoint: pretrain_models/videophy_2_auto
+vbench_root: eval/vbench
+prompt_info_json: eval/benchmark_data/vbench/VBench_full_info.json
+vbench_pretrained_path: pretrain_models/vbench_pretrained
